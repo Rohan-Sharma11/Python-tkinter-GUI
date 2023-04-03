@@ -6,8 +6,8 @@ def main1():
     w1_root.geometry("500x300")
 
     L1=Label(w1_root,text="Name : Rohan",padx=3,pady=5).pack()
-    L2=Label(w1_root,text="Roll NO : Rohan",padx=3,pady=5).pack()
-    L3=Label(w1_root,text="Class : Rohan",padx=3,pady=5).pack()
+    L2=Label(w1_root,text="Roll NO : 2506",padx=3,pady=5).pack()
+    L3=Label(w1_root,text="Class : FYBSC CS",padx=3,pady=5).pack()
     btn1=Button(w1_root,text="Next Window",command=main2).pack()
     w1_root.mainloop()
 
