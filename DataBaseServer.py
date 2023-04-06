@@ -21,7 +21,7 @@ print("Cursor object created") #for checking the error
 conn_obj.execute('drop table if exists computer')
 conn_obj.execute('''Create table computer(Roll_NO Primary Key Not NULL,Name char(10),Class char(10))''')
 
-cursor_obj.execute("INSERT INTO computer(Roll_no, Name, Class) VALUES (2506, 'Rohan', 'FYBSC CS')")
+cursor_obj.execute("INSERT INTO computer(Roll_no, Name, Class) VALUES (2506, 'Rohan', 'FYBSC CS'), (2444, 'Varun', 'FYBSC CS'), (2416, 'Divyansh', 'FYBSC CS'),  (2450, 'Rishi', 'FYBSC CS'), (2404, 'Prashant', 'FYBSC CS')  ")
 
 cursor_obj = conn_obj.execute("SELECT * from computer")
 for row in cursor_obj:
