@@ -23,6 +23,6 @@ conn_obj.execute('''Create table computer(Roll_NO Primary Key Not NULL,Name char
 
 cursor_obj.execute("INSERT INTO computer(Roll_no, Name, Class) VALUES (2506, 'Rohan', 'FYBSC CS')")
 
-cursor_obj = conn_obj.execute("SELECT Roll_no, Name, Class FROM computer WHERE Roll_NO=2506")
+cursor_obj = conn_obj.execute("SELECT * from computer")
 for row in cursor_obj:
     print("Roll_NO=", row[0], "Name=", row[1], "Class=", row[2])
