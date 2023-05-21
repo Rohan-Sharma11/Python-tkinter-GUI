@@ -1,3 +1,4 @@
+# hello noob how are you?
 from tkinter import *
 def main1():
     w1_root=Tk()
